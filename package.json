@@ -1,0 +1,28 @@
+{
+  "name": "spa-mean",
+  "version": "1.0.0",
+  "description": "Single Page Application with Mongo Express Angular Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RubensTen/spa-mean.git"
+  },
+  "keywords": [
+    "SPA",
+    "node",
+    "angular",
+    "mongo",
+    "mean",
+    "express",
+    "api"
+  ],
+  "author": "Rubens Ten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RubensTen/spa-mean/issues"
+  },
+  "homepage": "https://github.com/RubensTen/spa-mean#readme"
+}
