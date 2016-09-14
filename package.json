@@ -24,5 +24,10 @@
   "bugs": {
     "url": "https://github.com/RubensTen/spa-mean/issues"
   },
-  "homepage": "https://github.com/RubensTen/spa-mean#readme"
+  "homepage": "https://github.com/RubensTen/spa-mean#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0"
+  }
 }
