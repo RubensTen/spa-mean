@@ -1,1 +1,1 @@
-# SPA-MEAN (Single Page App - MEAN)
+# SPA-MEAN (Single Page Application - MEAN)
