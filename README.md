@@ -9,3 +9,23 @@ Estructura de directorios
 - config.js: Archivo que contiene toda la configuración de la aplicación.
 - package.json: Archivo que contiene informacion acerca de la aplicacion, sus dependencias, autor, scripts, etc...
 - server.js: Archivo principal para ejecucion de la aplicación con toda la definición (Rutas, Modulos, Apis, etc...)
+
+
+Ejecutando la aplicación
+
+Despues de clonar el repositorio es necesario instalar todas las dependencias necesarias para la ejecución de la aplicación
+para esto es necesario ejecutar el siguiente comando en la terminal:
+
+    npm install
+
+Una vez instaladas las dependencias de la aplicación, para ejecutar el servidor es necesario ejecutar el siguiente comando en la terminal:
+
+    node server.js
+
+Este comando mostrara un mensaje en la consola, notificando que el servidor se encuentra activo y escuchando en el puerto 3000.
+Para verificar que el servidor inicio correctamente nos dirigmos a un navegador y visualizamos la siguiente url:
+
+    http://localhost:3000
+
+Deberá mostrarse una página con un mensaje.
+
