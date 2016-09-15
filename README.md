@@ -1,5 +1,7 @@
 # SPA-MEAN (Single Page Application - MEAN)
 
+El objetivo de esta aplicación es el conocer e integrar las diferentes tecnologías de la pila MEAN (Mongo Express Angular Node), definiendo escenarios donde cada una tendra un rol en especifico, desde la visualización de vistas hasta la invocación de servicios web así como la obtención de la información entre otras.
+
 Estructura de directorios
 
 - node_modules: Directorio que contiene las dependencias o modulos que necesita la aplicación.
