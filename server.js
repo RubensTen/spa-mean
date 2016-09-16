@@ -1,6 +1,7 @@
 //importar libs/modules
 var express = require('express'),
 	bodyParser = require('body-parser'),
+	mongoose = require('mongoose'),
 	path = require('path');
 
 //App server configuration
@@ -57,3 +58,16 @@ app.use(function(err, req, res, next) {
 var server = app.listen(config.port, function (){
 	console.log('Express server listening on port : ', server.address().port);
 });
+
+//Conexion a la BD
+mongoose.connect(config.uriDB);
+
+//Control de conexiones
+var db = mongoose.connection;
+	db.on('error', function (){
+		console.error('Error al conectarse a mongodb');
+	});
+	
+	db.once('open', function (){
+		console.log('Conectado a mongodb exitosamente');
+	});
