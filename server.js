@@ -9,6 +9,7 @@ var config = require('./config');
 
 //Import de Controladores de rutas
 var indexRoute = require('./routes/index');
+var apiRoute = require('./routes/api');
 
 
 //Init app server
@@ -25,6 +26,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //Impl de rutas
 app.use('/', indexRoute);
+app.use('/api', apiRoute);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
